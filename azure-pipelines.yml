@@ -18,7 +18,7 @@ steps:
   inputs:
     azureSubscription: 'Xconection'
     scriptLocation: inlineScript
-    inlineScript: 'az ml folder attach -w Xibelly -g ML_Services'
+    inlineScript: 'az ml folder attach -w xibelly -g ML_Services'
 
 - task: AzureCLI@1
   displayName: 'Create compute for training'
